@@ -1,0 +1,62 @@
+@media (max-width: 1076px) {
+
+    #text-img,
+    #img-txt-tag,
+    #img-txt-title {
+        display: none;
+    }
+
+    #main-button {
+        margin-top: 10rem;
+        margin-right: 5rem;
+    }
+}
+
+@media (max-width: 684px) {
+    #conteudo-div {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 394px) {
+    #tutorial {
+        width: 8rem;
+    }
+
+    .tutorial-txt {
+        font-size: 12px;
+    }
+
+    #txt-tutorial-div {
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    #img-historia {
+        display: none;
+    }
+}
+
+@media (max-width: 930px) {
+    .div-bordas-metas {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 997px) {
+    .consultores-img {
+        display: none;
+    }
+}
+
+@media (max-width: 937px) {
+    .div-social {
+        margin: 0
+    }
+}
