@@ -1,3 +1,4 @@
+/*O root serve para criar variáveis globais*/
 :root {
   --primary-color: #186B8C;
   --secondary-color: #4f8b2e;
@@ -6,6 +7,7 @@
   --project-font-family: 'Montserrat', sans-serif;
 }
 
+/*O body serve para criar as configurações globais da página*/
 body {
   background-color: var(--background-color);
   font-family: var(--project-font-family);
@@ -15,6 +17,7 @@ body {
   max-width: 100%;
 }
 
+/*O meta-obj serve para criar os objetos de metas e objetivos*/
 .meta-obj {
   display: flex;
   flex-direction: column;
@@ -23,6 +26,7 @@ body {
 
 }
 
+/*O header serve para criar o cabeçalho da página*/
 #header-div {
   background-color: var(--primary-color);
   height: 6rem;
@@ -35,11 +39,13 @@ body {
   justify-content: space-between;
 }
 
+/*O main-logo serve para criar o logo da página*/
 #main-logo {
   width: 6rem;
   margin-left: 2rem
 }
 
+/*O sitec-div serve para criar o texto do cabeçalho da página*/
 #sitec-div {
   display: flex;
   flex-direction: column;
@@ -48,6 +54,7 @@ body {
   height: 4rem;
 }
 
+/*O sitec-header serve para criar o texto do cabeçalho da página*/
 #sitec-header {
   font-size: 44px;
   color: var(--background-color);
@@ -55,24 +62,28 @@ body {
   font-weight: 900;
 }
 
+/*O sitec-tag-header serve para criar o texto do cabeçalho da página*/
 #sitec-tag-header {
   color: var(--background-color);
   font-size: 20px;
   margin-top: -3rem;
 }
 
+/*O buttons-header serve para criar os botões do cabeçalho da página*/
 #buttons-header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+/*O button-register serve para criar o botão de cadastro do cabeçalho da página*/
 #button-register {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+/*O button-header serve para criar o botão do cabeçalho da página*/
 .button-header {
   height: 1.3rem;
   background-color: var(--background-color);
@@ -982,4 +993,359 @@ input {
 
 #sobre-nos-but {
   margin-bottom: 0.3rem
+}
+
+html,
+body {
+    height: 100%;
+    background-color: var(--background-color);
+    font-family: var(--project-font-family);
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-header {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 10px;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    background-color: #186B8C;
+    height: 1.3rem;
+    width: 5rem;
+    margin-right: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+form {
+    background-color: grey;
+    width: 80%;
+    height: 18rem;
+    position: absolute;
+}
+
+#img-login {
+    opacity: 0.5;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.campos-login {
+    background-color: rgba(128, 128, 128, 0.432);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+}
+
+.input-campo {
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 31%;
+    left: 52%;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    border-width: 0 0 2px 0;
+}
+
+#main-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 14rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border-radius: 4rem;
+    align-items: center;
+    margin-top: -3rem;
+    position: absolute;
+    top: 107%;
+    left: 55%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+#button-text {
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+#img-button {
+    width: 2rem;
+}
+
+.campos-email {
+    background-color: rgba(128, 128, 128, 0.432);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 39%;
+    left: 52%;
+}
+
+.input-email {
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    border-width: 0 0 2px 0;
+}
+
+.campos-senha {
+    background-color: rgba(128, 128, 128, 0.432);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 59%;
+    left: 52%;
+}
+
+.input-senha {
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 71%;
+    left: 52%;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    border-width: 0 0 2px 0;
+}
+
+.campos-confirme {
+    background-color: rgba(128, 128, 128, 0.432);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 79%;
+    left: 52%;
+}
+
+.input-confirme {
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 90%;
+    left: 52%;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    border-width: 0 0 2px 0;
+}
+
+#user-click {
+    background-color: rgba(128, 128, 128 0);
+    border-radius: 4rem;
+    border: 1px solid black;
+    position: absolute;
+    top: 11%;
+    left: 20%;
+    height: 2rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#user-registrar {
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 4rem;
+    border: 1px solid black;
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    height: 2rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#img-user {
+    width: 1.3rem;
+    margin-left: 6rem;
+}
+
+#entrar {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#cadastrar {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 7rem;
+    margin-top: 0.9rem;
+}
+
+.selected {
+    background-color: rgba(128, 128, 128, 0.7) !important
+}
+
+.campos-email-selecionado {
+    background-color: rgba(128, 128, 128, 0.432);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 39%;
+    left: 22%;
+}
+
+.input-email-selecionado {
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    border-width: 0 0 2px 0;
+}
+
+.campos-senha-selecionado {
+    background-color: rgba(128, 128, 128, 0.432);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 59%;
+    left: 22%;
+}
+
+.input-senha-selecionado {
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    font-weight: bold;
+    width: 18rem;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 71%;
+    left: 22%;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    border-width: 0 0 2px 0;
+}
+
+#main-button-entrar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 14rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border-radius: 4rem;
+    align-items: center;
+    margin-top: -3rem;
+    position: absolute;
+    top: 89%;
+    left: 24%;
+}
+
+#entrar-div {
+    background-color: #186B8C;
+    width: 21rem;
+    height: 15rem;
+    margin-top: 6rem;
+    margin-right: 26rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+    z-index: 3;
+}
+
+#entrar-div-2 {
+    background-color: #186B8C;
+    width: 21rem;
+    z-index: 3;
+    height: 28.4rem;
+    margin-top: 6rem;
+    margin-right: -22rem;
+    border-radius: 2rem;
+    border: 2px solid white
 }
