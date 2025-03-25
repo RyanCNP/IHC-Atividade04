@@ -96,6 +96,7 @@ body {
   border: 1.6px solid black
 }
 
+/*O sobre-nos serve para criar o texto da página*/
 #sobre-nos {
   display: flex;
   flex-direction: column;
@@ -103,6 +104,7 @@ body {
 
 }
 
+/*O search-div serve para criar a barra de pesquisa da página*/
 #search-div {
   width: 13rem;
   background-color: var(--background-color);
@@ -114,8 +116,7 @@ body {
   border-radius: 2rem;
 }
 
-
-
+/*O tabs-div serve para criar as tabs da página*/
 .tabs-div {
   background-color: var(--secondary-color);
   width: 100%;
@@ -130,6 +131,7 @@ body {
   padding: 0.2rem;
 }
 
+/*O tabs-text serve para criar o texto das tabs da página*/
 .tabs-text {
   color: var(--background-color);
   font-size: 24px;
@@ -137,6 +139,7 @@ body {
   padding: 1rem;
 }
 
+/*O divider serve para criar o divisor da página*/
 .divider {
   background-color: var(--background-color);
   height: 26px;
@@ -144,6 +147,7 @@ body {
   margin-top: 15.2rem;
 }
 
+/*O sticky serve para criar o cabeçalho fixo da página*/
 .sticky {
   position: fixed;
   top: 0;
@@ -151,11 +155,13 @@ body {
   z-index: 3;
 }
 
+/*O main-pic serve para criar a imagem da página*/
 #main-pic {
   height: 30rem;
   width: 100%;
 }
 
+/*O top-right serve para criar o texto da página*/
 .top-right {
   position: absolute;
   top: 10%;
@@ -165,13 +171,14 @@ body {
   align-items: center;
 }
 
+/*O container-img serve para criar o container da imagem da página*/
 .container-img {
   position: relative;
   text-align: center;
   color: white;
-
 }
 
+/*O img-txt-title serve para criar o texto da imagem da página*/
 #img-txt-title {
   font-size: 48px;
   color: white;
@@ -179,6 +186,7 @@ body {
   font-weight: 900;
 }
 
+/*O img-txt-tag serve para criar o texto da imagem da página*/
 #img-txt-tag {
   font-size: 28px;
   color: white;
@@ -187,6 +195,7 @@ body {
   font-family: var(--project-font-family);
 }
 
+/*O tab-title serve para criar o texto das tabs da página*/
 .tab-title {
   color: var(--secondary-color);
   font-weight: 800;
@@ -196,6 +205,7 @@ body {
   margin-bottom: -1.5rem;
 }
 
+/*O text-img serve para criar o texto da imagem da página*/
 #text-img {
   width: 28rem;
   height: 8rem;
@@ -205,10 +215,12 @@ body {
   text-align: justify;
 }
 
+/*O img-button serve para criar o botão da imagem da página*/
 #img-button {
   width: 2rem;
 }
 
+/*O tutorial-metas serve para criar as metas da página*/
 #tutorial-metas {
   width: 20rem;
   background-color: var(--primary-color);
@@ -220,6 +232,7 @@ body {
   padding: 1rem
 }
 
+/*O tutorial-objetivos serve para criar os objetivos da página*/
 #tutorial-objetivos {
   width: 29rem;
   background-color: var(--primary-color);
@@ -232,6 +245,7 @@ body {
   padding: 1rem
 }
 
+/*O componentes serve para criar os componentes das metas*/
 #componente-tutorial-metas {
   display: flex;
   flex-direction: row;
@@ -239,6 +253,7 @@ body {
   align-items: center;
 }
 
+/*O circle-metas-tutorial serve para criar os círculos das metas*/
 #circle-metas-tutorial {
   border-radius: 50%;
   background-color: var(--background-color);
@@ -248,6 +263,7 @@ body {
   display: flex;
 }
 
+/*O main-button serve para criar o botão principal da página*/
 #main-button {
   display: flex;
   flex-direction: row;
@@ -261,18 +277,20 @@ body {
   margin-top: -3rem;
 }
 
+/*O button-text serve para criar o texto do botão principal da página*/
 #button-text {
   font-weight: 500;
   font-size: 18px;
-
 }
 
+/*O titles serve para criar os títulos da página*/
 .titles {
   color: var(--black);
   font-weight: bold;
   font-size: 24px;
 }
 
+/*O texts serve para criar os textos da página*/
 .texts {
   color: var(--black);
   font-weight: 300;
@@ -283,6 +301,7 @@ body {
   align-self: center;
 }
 
+/*O conteudo-div serve para criar o conteúdo da página*/
 #conteudo-div {
   display: flex;
   flex-direction: row;
@@ -290,18 +309,20 @@ body {
   align-items: center;
 }
 
+/*O conteudo-dev serve para criar o conteúdo da página*/
 #conteudo-dev {
   display: flex;
   flex-direction: row;
   justify-content: left;
-
 }
 
+/*O Dev serve para criar o conteúdo da página*/
 #Dev {
   width: 8rem;
   margin-left: 2rem
 }
 
+/*O tutorial serve para criar uma das estilizações*/
 #tutorial {
   width: 14rem;
   background-color: var(--primary-color);
@@ -311,14 +332,17 @@ body {
   border: 2px solid var(--black)
 }
 
+/*O produto-letf serve para a estilização*/
 #produto-left {
   width: 50%;
 }
 
+/*O produto-right serve para o tamanho da imagem*/
 .carrousel-img {
   width: 36rem;
 }
 
+/*O texts-produto serve para criar os textos dos produtos*/
 .texts-produto {
   color: var(--black);
   font-weight: 300;
@@ -329,6 +353,7 @@ body {
   align-self: center;
 }
 
+/*O div-bordas-metas serve para criar as bordas das metas*/
 .div-bordas-metas {
   display: flex;
   flex-direction: row;
@@ -336,10 +361,12 @@ body {
   align-items: center;
 }
 
+/*O explicacao-produto serve para ajustar o texto*/
 #explicacao-produto {
   text-align: left;
 }
 
+/*O circle-tutorial serve para estilização*/
 .circle-tutorial {
   border-radius: 50%;
   background-color: var(--background-color);
@@ -347,7 +374,6 @@ body {
   height: 3rem;
   text-align: center;
   display: flex;
-
 }
 
 #tutorial {
