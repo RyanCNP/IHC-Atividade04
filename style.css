@@ -15,6 +15,12 @@ body {
   max-width: 100%;
 }
 
+
+  
+  li, ul {
+    all: unset;
+  }
+
 .meta-obj{
   display: flex;
   flex-direction: column;
@@ -381,6 +387,7 @@ color: var(--background-color)
 }
 
 .tutorial-txt{
+  color: gainsboro;
   font-size: 18px;
   font-weight: 500;
 }
@@ -871,11 +878,17 @@ height: auto;
   margin-left: 3rem;
 }
 
-#nossa-historia-texto{
+#nossa-historia-texto>p{
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  align-items: center;
+}
+
+#nossa-historia-texto> p {
+  justify-content: center;
+  width: auto;
   align-items: center;
 }
 
