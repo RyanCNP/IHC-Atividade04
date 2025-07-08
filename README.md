@@ -2,7 +2,7 @@
 
 Este repositório contempla a Atividade 04 da disciplina de Interação Humano-Computador (IHC), desenvolvida com base no projeto [**SiTec**](https://github.com/nordivi/sitec), um sistema voltado à certificação de empresas que realizam o descarte correto de seus resíduos — sejam eles sólidos, líquidos, tecnológicos, biológicos ou radioativos.
 
-> Este projeto foi desenvolvido durante minha formação como estudante de Tecnologia em Desenvolvimento de Software Multiplataforma na **Fatec Votorantim**.
+> Este projeto foi desenvolvido durante nossa formação como estudantes de Tecnologia em Desenvolvimento de Software Multiplataforma na **Fatec Votorantim**.
 
 ## 🔗 Links Relevantes
 
